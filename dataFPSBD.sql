@@ -7,6 +7,18 @@ INSERT INTO siswa VALUES ('S0006','Cynthia','Jl. Ciputra 219','263638169991','08
 INSERT INTO siswa VALUES ('S0007','Subhan','Jl. Manyar Selatan 21b','291028939713','081515580376','sabhuncolek@yahoo.com',to_date('11-08-2017','dd-mm-yyyy'));
 INSERT INTO siswa VALUES ('S0008','Brama','Jl. Ciputra 219','831719931804','08289372989','bramski@mhs.if.its.ac.id',to_date('11-08-2017','dd-mm-yyyy'));
 INSERT INTO siswa VALUES ('S0009','Daniel Kurniawan','Jl. Kenangan','3275082212970013','087852981266','dekaslr8@gmail.com',to_date('19-12-2017','dd-mm-yyyy'));
+--tambahan--
+INSERT INTO siswa VALUES ('S0010','Andi','Jl. Kita','123456789999','087852981772','andi@gmail.com',to_date('19-10-2017','dd-mm-yyyy'));
+INSERT INTO siswa VALUES ('S0011','Anda','Jl. Kuajah','98989898989898','083852981772','anda@gmail.com',to_date('10-10-2017','dd-mm-yyyy'));
+INSERT INTO siswa VALUES ('S0012','Firin','Jl. Jalan Yuk','343434343434','081852981972','rinfirin@gmail.com',to_date('30-10-2017','dd-mm-yyyy'));
+INSERT INTO siswa VALUES ('S0013','Athiyatul Ulya','Jl. Aceh Merdeka','121212121212','088852981772','athiya123@gmail.com',to_date('29-07-2017','dd-mm-yyyy'));
+INSERT INTO siswa VALUES ('S0014','Rafika Rahmawati','Jl. Bersama','123123123123','085322981772','rafika@gmail.com',to_date('12-07-2017','dd-mm-yyyy'));
+INSERT INTO siswa VALUES ('S0015','Azmy','Jl. Pondok Indah','777820640797','081234777269','azmy@gmail.com',to_date('22-08-2017','dd-mm-yyyy'));
+INSERT INTO siswa VALUES ('S0016','Sakira','Jl. Sukolilo','647444981000','081100000287','sakira@gmail.com',to_date('29-08-2017','dd-mm-yyyy'));
+INSERT INTO siswa VALUES ('S0017','Reza','Jl. Winong','729489222934','085253712222','reza@hotmail.com',to_date('31-09-2017','dd-mm-yyyy'));
+INSERT INTO siswa VALUES ('S0018','Farhan','Jl. Kemerdekaan','721232019719','055565319210','farhan@hotmail.com',to_date('20-07-2017','dd-mm-yyyy'));
+INSERT INTO siswa VALUES ('S0019','Hafidh','Jl. Semarang','351898998631','08569993719','hafidh@yahoo.co.id',to_date('12-08-2017','dd-mm-yyyy'));
+INSERT INTO siswa VALUES ('S0020','Itsna','Jl. Surabaya','263630009991','081675556883','itsna@mhs.if.its.ac.id',to_date('08-07-2017','dd-mm-yyyy'));
 
 INSERT INTO pengajar VALUES ('P0001','Hari Sudirman','Perumdos blok U-9','081673176883','sudirman38@gmail.com');
 INSERT INTO pengajar VALUES ('P0002','Sugeng','Jl. Kedung doro 21','085739384826','sugenggeng@yahoo.com');
@@ -66,13 +78,38 @@ INSERT INTO detil_kursus VALUES ('PK001','S0002','LULUS','70');
 INSERT INTO detil_kursus VALUES ('PK002','S0002','LULUS','89');
 INSERT INTO detil_kursus VALUES ('PK005','S0002','GAGAL','69');
 INSERT INTO detil_kursus VALUES ('PK006','S0002','GAGAL','67');
-
 INSERT INTO detil_kursus VALUES ('PK009','S0001','LULUS','80');
 INSERT INTO detil_kursus VALUES ('PK010','S0003','LULUS','81');
 INSERT INTO detil_kursus VALUES ('PK011','S0001','GAGAL','34');
 INSERT INTO detil_kursus VALUES ('PK012','S0006','LULUS','80');
 INSERT INTO detil_kursus VALUES ('PK013','S0008','LULUS','99');
 INSERT INTO detil_kursus VALUES ('PK014','S0001','LULUS','79');
+
+--TAMBAHAN--
+INSERT INTO detil_kursus VALUES ('PK001','S0011','LULUS','85');
+INSERT INTO detil_kursus VALUES ('PK003','S0013','LULUS','82');
+INSERT INTO detil_kursus VALUES ('PK019','S0012','GAGAL','34');
+INSERT INTO detil_kursus VALUES ('PK005','S0016','LULUS','80');
+INSERT INTO detil_kursus VALUES ('PK002','S0018','LULUS','99');
+INSERT INTO detil_kursus VALUES ('PK004','S0011','LULUS','79');
+INSERT INTO detil_kursus VALUES ('PK019','S0014','GAGAL','30');
+INSERT INTO detil_kursus VALUES ('PK002','S0017','LULUS','89');
+INSERT INTO detil_kursus VALUES ('PK019','S0015','GAGAL','20');
+INSERT INTO detil_kursus VALUES ('PK001','S0013','LULUS','85');
+INSERT INTO detil_kursus VALUES ('PK019','S0019','LULUS','100'); 
+INSERT INTO detil_kursus VALUES ('PK003','S0020',NULL,NULL);
+INSERT INTO detil_kursus VALUES ('PK004','S0012',NULL,NULL);
+INSERT INTO detil_kursus VALUES ('PK001',' ','LULUS','70');
+INSERT INTO detil_kursus VALUES ('PK002','S0012','LULUS','89');
+INSERT INTO detil_kursus VALUES ('PK005','S0020','GAGAL','69');
+INSERT INTO detil_kursus VALUES ('PK006','S0020','GAGAL','67');
+INSERT INTO detil_kursus VALUES ('PK009','S0011','LULUS','80');
+INSERT INTO detil_kursus VALUES ('PK010','S0013','LULUS','81');
+INSERT INTO detil_kursus VALUES ('PK011','S0011','GAGAL','34');
+INSERT INTO detil_kursus VALUES ('PK012','S0016','LULUS','80');
+INSERT INTO detil_kursus VALUES ('PK013','S0018','LULUS','99');
+INSERT INTO detil_kursus VALUES ('PK014','S0011','LULUS','79');
+
 
 INSERT INTO cabang VALUES ('CB001','Kertajaya','085123456789');
 INSERT INTO cabang VALUES ('CB002','Manyar','085123456790');
